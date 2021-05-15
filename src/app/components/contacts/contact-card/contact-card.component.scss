@@ -1,0 +1,33 @@
+.contact-card{
+    margin: 2%;
+    background:#279fa3;
+    // background-color: rgb(126, 179, 185);
+    border-radius: 8px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.08);
+    padding-top: 5%;    
+    display: flex;
+    flex-direction: column;
+
+    .contact-pic {
+        text-align: center;
+        
+        img {
+            border-radius: 8px;
+            box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.08);
+            width: 70%;
+        }
+    }
+    .contact-details {
+        text-align: center;
+
+        .name {
+            margin-left: 3%;
+            margin-right: 3%;
+            h5 {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}

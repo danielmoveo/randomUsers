@@ -1,0 +1,9 @@
+.contacts-list {
+    background-color: rgb(221, 205, 205);
+    
+    justify-content: center;
+    .contact-card-container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
