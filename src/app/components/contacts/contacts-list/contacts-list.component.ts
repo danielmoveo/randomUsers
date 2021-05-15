@@ -40,6 +40,7 @@ export class ContactsListComponent implements OnInit {
       (res: any) => {
         const contactsFromResult:Array<any> = res.results;
         if(contactsFromResult.length > 0){
+          // Map results - Get Contact from response:
           this.contacts.push(this.mapSingleContact(contactsFromResult));
         }
         if(this.contacts.length < this.NUM_OF_CONTACTS){
